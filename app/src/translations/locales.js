@@ -140,7 +140,7 @@ export const loadOne = (locale) =>
 	catch
 	{
 
-		res = list.filter((item) => item.locale.includes('en'))[0];
+		res = list.filter((item) => item.locale.includes('cn'))[0];
 
 		res.messages = require(`./${res.file}`);
 	}
