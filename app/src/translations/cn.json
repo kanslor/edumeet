@@ -154,7 +154,7 @@
 	"settings.layout": "房间布局",
 	"settings.selectRoomLayout": "选择房间布局",
 	"settings.advancedMode": "高级模式",
-	"settings.permanentTopBar": "永久置顶",
+	"settings.permanentTopBar": "顶栏永久置顶",
 	"settings.aspectRatio": "视频长宽比",
 	"settings.selectAspectRatio": "选择视频长宽比",
 	"settings.lastn": "可见视频数量",
@@ -171,6 +171,7 @@
 	"settings.voiceActivatedUnmute": "有声音时取消静音",
 	"settings.noiseThreshold": "噪声阈值",
 	"settings.mirrorOwnVideo": "视频镜像翻转",
+	"settings.language": "选择语言"
 
 	"filesharing.saveFileError": "无法保存文件",
 	"filesharing.startingFileShare": "正在尝试共享文件",
