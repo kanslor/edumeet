@@ -75,21 +75,14 @@ const About = ({
 			</DialogTitle>
 			<DialogContent dividers>
 				<DialogContentText paragraph>
-					Contributions to this work were made on behalf of the GÉANT
-					project, a project that has received funding from the
-					European Union’s Horizon 2020 research and innovation
-					programme under Grant Agreement No. 731122 (GN4-2).
-					On behalf of GÉANT project, GÉANT Association is the sole
-					owner of the copyright in all material which was developed
-					by a member of the GÉANT project.
+					FastMeet在线视频会议平台是爱招飞产品的视频会议功能的技术支撑部分，
+					实现了网页端的音频视频通话，屏幕分享，在线消息发送以及文件分享等功能。
 				</DialogContentText>
 				<DialogContentText paragraph>
-					GÉANT Vereniging (Association) is registered with the
-					Chamber of Commerce in Amsterdam with registration number
-					40535155 and operates in the UK as a branch of GÉANT
-					Vereniging. Registered office: Hoekenrode 3, 1102BR
-					Amsterdam, The Netherlands. UK branch address: City House,
-					126-130 Hills Road, Cambridge CB2 1PQ, UK.
+					您可以在爱招飞的产品(FastERP、Smart、PinToo、FastWeb)中随时调用
+					FastMeet，实现在平台内更快速更方便的沟通。本平台基于edumeet实现，
+					w点击下方的链接了解详情
+					
 				</DialogContentText>
 				<DialogContentText align='center' paragraph>
 					<Link href={eduMeetUrl} target='_blank' rel='noreferrer' color='secondary' variant='h6'>
