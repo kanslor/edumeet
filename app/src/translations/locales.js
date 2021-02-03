@@ -1,66 +1,66 @@
 const list = [
 	{
-		name   : '中文(简体)',
-		file   : 'cn',
-		locale : [ 'zn', 'zn-zn', 'zn-cn' ]
-	}, // hans
-	{
-		name   : '中文(繁体)',
-		file   : 'tw',
-		locale : [ 'zn-tw', 'zn-hk', 'zn-sg' ]
-	}, // hant
-	{
 		name   : 'English',
 		file   : 'en',
 		locale : [ 'en', 'en-en' ]
 	},
 	{
-		name   : 'čeština',
+		name   : 'Czech',
 		file   : 'cs',
 		locale : [ 'cs', 'cs-cs' ]
 	},
 	{
-		name   : 'hrvatski',
+		name   : 'Chinese (Simplified)',
+		file   : 'cn',
+		locale : [ 'zn', 'zn-zn', 'zn-cn' ]
+	}, // hans
+	{
+		name   : 'Chinese (Traditional)',
+		file   : 'tw',
+		locale : [ 'zn-tw', 'zn-hk', 'zn-sg' ]
+	}, // hant
+	{
+		name   : 'Croatian',
 		file   : 'hr',
 		locale : [ 'hr', 'hr-hr' ]
 	},
 	{
-		name   : 'Dansk',
+		name   : 'Danish',
 		file   : 'dk',
 		locale : [ 'dk', 'dk-dk' ]
 	},
 	{
-		name   : 'Français',
+		name   : 'French',
 		file   : 'fr',
 		locale : [ 'fr', 'fr-fr' ]
 	},
 	{
-		name   : 'Deutsch',
+		name   : 'German',
 		file   : 'de',
 		locale : [ 'de', 'de-de' ]
 	},
 	{
-		name   : 'ελληνικά',
+		name   : 'Greek',
 		file   : 'el',
 		locale : [ 'el', 'el-el' ]
 	},
 	{
-		name   : 'हिंदी',
+		name   : 'Hindi',
 		file   : 'hi',
 		locale : [ 'hi', 'hi-hi' ]
 	},
 	{
-		name   : 'Magyar',
+		name   : 'Hungarian',
 		file   : 'hu',
 		locale : [ 'hu', 'hu-hu' ]
 	},
 	{
-		name   : 'Italiano',
+		name   : 'Italian',
 		file   : 'it',
 		locale : [ 'it', 'it-it' ]
 	},
 	{
-		name   : 'қазақ тілі',
+		name   : 'Kazakh',
 		file   : 'kk',
 		locale : [ 'kk', 'kk-kz	' ]
 	},
@@ -70,32 +70,32 @@ const list = [
 		locale : [ 'lv', 'lv-lv' ]
 	},
 	{
-		name   : 'Norsk bokmal',
+		name   : 'Norwegian',
 		file   : 'nb',
 		locale : [ 'nb', 'nb-no' ]
 	},
 	{
-		name   : 'Polski',
+		name   : 'Polish',
 		file   : 'pl',
 		locale : [ 'pl', 'pl-pl' ]
 	},
 	{
-		name   : 'Protuguês',
+		name   : 'Portuguese',
 		file   : 'pt',
 		locale : [ 'pt', 'pt-pt' ]
 	},
 	{
-		name   : 'româna',
+		name   : 'Romanian',
 		file   : 'ro',
 		locale : [ 'ro', 'ro-ro' ]
 	},
 	{
-		name   : 'Русский',
+		name   : 'Russian',
 		file   : 'ru',
 		locale : [ 'ru', 'ru-ru' ]
 	},
 	{
-		name   : 'Español',
+		name   : 'Spanish',
 		file   : 'es',
 		locale : [ 'es', 'es-es' ]
 	},
@@ -105,7 +105,7 @@ const list = [
 		locale : [ 'tr', 'tr-tr' ]
 	},
 	{
-		name   : 'українська',
+		name   : 'Ukrainian',
 		file   : 'uk',
 		locale : [ 'uk', 'uk-uk' ]
 	}
@@ -140,7 +140,7 @@ export const loadOne = (locale) =>
 	catch
 	{
 
-		res = list.filter((item) => item.locale.includes('cn'))[0];
+		res = list.filter((item) => item.locale.includes('zn'))[0];
 
 		res.messages = require(`./${res.file}`);
 	}
