@@ -1,6 +1,6 @@
 {
-	"short_name": "edumeet",
-	"name": "edumeet - Simple web meetings",
+	"short_name": "IsoMeet",
+	"name": "IsoMeet - 在线视频会议系统",
 	"icons": [
 		{
 		"src": "favicon.ico",
