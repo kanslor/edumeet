@@ -12,12 +12,12 @@ const list = [
 	{
 		name   : 'Chinese (Simplified)',
 		file   : 'cn',
-		locale : [ 'zn', 'zn-zn', 'zn-cn' ]
+		locale : [ 'cn', 'cn-cn' ]
 	}, // hans
 	{
 		name   : 'Chinese (Traditional)',
 		file   : 'tw',
-		locale : [ 'zn-tw', 'zn-hk', 'zn-sg' ]
+		locale : [ 'tw', 'tw-tw' ]
 	}, // hant
 	{
 		name   : 'Croatian',
@@ -140,7 +140,7 @@ export const loadOne = (locale) =>
 	catch
 	{
 
-		res = list.filter((item) => item.locale.includes('zn'))[0];
+		res = list.filter((item) => item.locale.includes('cn'))[0];
 
 		res.messages = require(`./${res.file}`);
 	}
