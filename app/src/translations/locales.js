@@ -1,66 +1,66 @@
 const list = [
 	{
+		name   : '中文(简体)',
+		file   : 'cn',
+		locale : [ 'zn', 'zn-zn', 'zn-cn' ]
+	}, // hans
+	{
+		name   : '中文(繁体)',
+		file   : 'tw',
+		locale : [ 'zn-tw', 'zn-hk', 'zn-sg' ]
+	}, // hant
+	{
 		name   : 'English',
 		file   : 'en',
 		locale : [ 'en', 'en-en' ]
 	},
 	{
-		name   : 'Czech',
+		name   : 'čeština',
 		file   : 'cs',
 		locale : [ 'cs', 'cs-cs' ]
 	},
 	{
-		name   : 'Chinese (Simplified)',
-		file   : 'cn',
-		locale : [ 'zn', 'zn-zn', 'zn-cn' ]
-	}, // hans
-	{
-		name   : 'Chinese (Traditional)',
-		file   : 'tw',
-		locale : [ 'zn-tw', 'zn-hk', 'zn-sg' ]
-	}, // hant
-	{
-		name   : 'Croatian',
+		name   : 'hrvatski',
 		file   : 'hr',
 		locale : [ 'hr', 'hr-hr' ]
 	},
 	{
-		name   : 'Danish',
+		name   : 'Dansk',
 		file   : 'dk',
 		locale : [ 'dk', 'dk-dk' ]
 	},
 	{
-		name   : 'French',
+		name   : 'Français',
 		file   : 'fr',
 		locale : [ 'fr', 'fr-fr' ]
 	},
 	{
-		name   : 'German',
+		name   : 'Deutsch',
 		file   : 'de',
 		locale : [ 'de', 'de-de' ]
 	},
 	{
-		name   : 'Greek',
+		name   : 'ελληνικά',
 		file   : 'el',
 		locale : [ 'el', 'el-el' ]
 	},
 	{
-		name   : 'Hindi',
+		name   : 'हिंदी',
 		file   : 'hi',
 		locale : [ 'hi', 'hi-hi' ]
 	},
 	{
-		name   : 'Hungarian',
+		name   : 'Magyar',
 		file   : 'hu',
 		locale : [ 'hu', 'hu-hu' ]
 	},
 	{
-		name   : 'Italian',
+		name   : 'Italiano',
 		file   : 'it',
 		locale : [ 'it', 'it-it' ]
 	},
 	{
-		name   : 'Kazakh',
+		name   : 'қазақ тілі',
 		file   : 'kk',
 		locale : [ 'kk', 'kk-kz	' ]
 	},
@@ -70,32 +70,32 @@ const list = [
 		locale : [ 'lv', 'lv-lv' ]
 	},
 	{
-		name   : 'Norwegian',
+		name   : 'Norsk bokmal',
 		file   : 'nb',
 		locale : [ 'nb', 'nb-no' ]
 	},
 	{
-		name   : 'Polish',
+		name   : 'Polski',
 		file   : 'pl',
 		locale : [ 'pl', 'pl-pl' ]
 	},
 	{
-		name   : 'Portuguese',
+		name   : 'Protuguês',
 		file   : 'pt',
 		locale : [ 'pt', 'pt-pt' ]
 	},
 	{
-		name   : 'Romanian',
+		name   : 'româna',
 		file   : 'ro',
 		locale : [ 'ro', 'ro-ro' ]
 	},
 	{
-		name   : 'Russian',
+		name   : 'Русский',
 		file   : 'ru',
 		locale : [ 'ru', 'ru-ru' ]
 	},
 	{
-		name   : 'Spanish',
+		name   : 'Español',
 		file   : 'es',
 		locale : [ 'es', 'es-es' ]
 	},
@@ -105,7 +105,7 @@ const list = [
 		locale : [ 'tr', 'tr-tr' ]
 	},
 	{
-		name   : 'Ukrainian',
+		name   : 'українська',
 		file   : 'uk',
 		locale : [ 'uk', 'uk-uk' ]
 	}
