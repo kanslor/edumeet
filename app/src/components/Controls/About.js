@@ -81,7 +81,7 @@ const About = ({
 				<DialogContentText paragraph>
 					您可以在爱招飞的产品(FastERP、Smart、PinToo、FastWeb)中随时调用
 					FastMeet，实现在平台内更快速更方便的沟通。本平台基于edumeet实现，
-					点击下方的链接了解详情。					
+					点击下方的链接了解详情。
 				</DialogContentText>
 				<DialogContentText align='center' paragraph>
 					<Link href={eduMeetUrl} target='_blank' rel='noreferrer' color='secondary' variant='h6'>
