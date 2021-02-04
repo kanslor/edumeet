@@ -171,7 +171,7 @@
 	"settings.voiceActivatedUnmute": "有声音时取消静音",
 	"settings.noiseThreshold": "噪声阈值",
 	"settings.mirrorOwnVideo": "视频镜像翻转",
-	"settings.language": "选择语言"
+	"settings.language": "选择语言",
 
 	"filesharing.saveFileError": "无法保存文件",
 	"filesharing.startingFileShare": "正在尝试共享文件",
