@@ -7,7 +7,7 @@ const list = [
 	{
 		name   : '中文(繁体)',
 		file   : 'tw',
-		locale : [ 'tw', 'cn-tw' ]
+		locale : [ 'tw', 'tw-tw' ]
 	}, // hant
 	{
 		name   : 'English',
